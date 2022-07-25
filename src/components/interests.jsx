@@ -1,9 +1,13 @@
 import React from "react";
 
-export default function Interest(){
-    return(
-        <div>
-         <h1>Interest goes here!</h1>
-        </div>
-    );
+export default function Interest() {
+  return (
+    <div className="info-section">
+      <h2>Interests</h2>
+      <p>
+        Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.
+        Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
+      </p>
+    </div>
+  );
 }
